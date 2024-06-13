@@ -149,9 +149,10 @@ contract MyToken {
         balances[_address] -= _value;
         emit Burn(_address, _value);
     }
-}
-Usage
-Deploying the Contract
+}```
+```
+# Usage
+## Deploying the Contract
 Use an Ethereum development environment like Remix to compile and deploy the contract to an Ethereum network.
 Interact with the deployed contract using its address on the Ethereum network.
 Interacting with the Contract
